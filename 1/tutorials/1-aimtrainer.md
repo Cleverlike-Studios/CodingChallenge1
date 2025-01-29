@@ -23,7 +23,7 @@ function resetGame () {
     player.execute(
     "remove @e[type=arrow]"
     )
-    blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
+    blocks.place(DIAMOND_BLOCK, world(160, 28, 149))
 }
 function endGame () {
     agent.destroy(DOWN)
@@ -31,6 +31,7 @@ function endGame () {
     loops.pause(3000)
 }
 function startGame () {
+    blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
     setupGame()
     targetHit = 0
     while (timeRemaining > 0) {
@@ -120,6 +121,7 @@ let worldLocations: Position[] = []
 let timeRemaining = 0
 let targetHit = 0
 startGame()
+
 
 
 ```
@@ -135,7 +137,7 @@ function resetGame () {
     player.execute(
     "remove @e[type=arrow]"
     )
-    blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
+    blocks.place(DIAMOND_BLOCK, world(160, 28, 149))
 }
 function endGame () {
     agent.destroy(DOWN)
@@ -143,6 +145,7 @@ function endGame () {
     loops.pause(3000)
 }
 function startGame () {
+    blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
     setupGame()
     targetHit = 0
     while (timeRemaining > 0) {
@@ -232,6 +235,7 @@ let worldLocations: Position[] = []
 let timeRemaining = 0
 let targetHit = 0
 startGame()
+
 
 
 ```
