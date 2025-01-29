@@ -6,9 +6,9 @@
         "builder": "*"
     },
     "files": [
-        "1-saveTheArcade/tutorials/1-aimtrainer.md",
-        "1-saveTheArcade/tutorials/2-aimtrainer.md",
-        "1-saveTheArcade/tutorials/0-close.md"
+        "1/tutorials/1-aimtrainer.md",
+        "1/tutorials/2-aimtrainer.md",
+        "1/tutorials/0-close.md"
     ],
     "targetVersions": {
         "target": "1.6.8",
