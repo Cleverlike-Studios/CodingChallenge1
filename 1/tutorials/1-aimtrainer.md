@@ -23,6 +23,7 @@ function resetGame () {
     player.execute(
     "remove @e[type=arrow]"
     )
+    blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
 }
 function endGame () {
     agent.destroy(DOWN)
@@ -119,6 +120,7 @@ let worldLocations: Position[] = []
 let timeRemaining = 0
 let targetHit = 0
 startGame()
+
 
 ```
 
@@ -133,6 +135,7 @@ function resetGame () {
     player.execute(
     "remove @e[type=arrow]"
     )
+    blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
 }
 function endGame () {
     agent.destroy(DOWN)
@@ -229,5 +232,6 @@ let worldLocations: Position[] = []
 let timeRemaining = 0
 let targetHit = 0
 startGame()
+
 
 ```
