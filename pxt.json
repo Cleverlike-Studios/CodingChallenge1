@@ -1,0 +1,21 @@
+{
+    "name": "CodingChallenge",
+    "version": "8.0.2",
+    "dependencies": {
+        "core": "*",
+        "builder": "*"
+    },
+    "files": [
+        "1-saveTheArcade/tutorials/1-aimtrainer.md",
+        "1-saveTheArcade/tutorials/2-aimtrainer.md",
+        "1-saveTheArcade/tutorials/0-close.md"
+    ],
+    "targetVersions": {
+        "target": "1.6.8",
+        "targetId": "minecraft"
+    },
+    "supportedTargets": [
+        "minecraft"
+    ],
+    "preferredEditor": "tsprj"
+}
