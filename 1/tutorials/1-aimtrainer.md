@@ -8,7 +8,7 @@
 
 ### Let's Play!
 
-Press the green Play button to try Aim Trainer!
+Press the green PLAY button to try Aim Trainer!
 
 #### ~ tutorialhint
 

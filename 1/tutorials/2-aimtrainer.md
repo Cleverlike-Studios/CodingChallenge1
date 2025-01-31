@@ -8,13 +8,17 @@
 
 ### Adding Rewards
 
-Follow along with the Tutorial video to repair the Aim Trainer game!
+Follow along with the Tutorial Video to repair the Aim Trainer game!
 
 #### ~ tutorialhint
 
 ```blocks
 function awardPlayer () {
-	
+	mobs.give(
+    mobs.target(NEAREST_PLAYER),
+    EMERALD,
+    score
+    )
 }
 function playGame () {
     gameplay.setGameMode(
