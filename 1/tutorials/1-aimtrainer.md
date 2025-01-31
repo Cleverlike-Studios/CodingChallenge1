@@ -17,7 +17,7 @@ gameplay.setGameMode(
 SURVIVAL,
 mobs.target(NEAREST_PLAYER)
 )
-blocks.place(LAPIS_BLOCK, world(160, 28, 149))
+blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
 let score = 0
 let timeRemaining = 600
 let worldLocations = [
