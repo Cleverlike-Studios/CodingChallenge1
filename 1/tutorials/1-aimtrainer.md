@@ -17,6 +17,7 @@ gameplay.setGameMode(
 SURVIVAL,
 mobs.target(NEAREST_PLAYER)
 )
+blocks.place(LAPIS_BLOCK, world(160, 28, 149))
 let score = 0
 let timeRemaining = 600
 let worldLocations = [
@@ -85,7 +86,7 @@ if (timeRemaining == 0) {
     agent.destroy(DOWN)
     gameplay.title(mobs.target(NEAREST_PLAYER), "GAME OVER", "Targets Hit: " + score)
     loops.pause(3000)
-    awardPlayer()
+    blocks.place(DIAMOND_BLOCK, world(160, 28, 149))
 }
 player.execute(
 "clear @p bow"
