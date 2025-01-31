@@ -25,6 +25,7 @@ function playGame () {
     SURVIVAL,
     mobs.target(NEAREST_PLAYER)
     )
+    score = 0
     timeRemaining = 600
     worldLocations = [
     world(167, 40, 151),
@@ -121,6 +122,7 @@ function playGame () {
     SURVIVAL,
     mobs.target(NEAREST_PLAYER)
     )
+    score = 0
     timeRemaining = 600
     worldLocations = [
     world(167, 40, 151),

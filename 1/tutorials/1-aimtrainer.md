@@ -19,6 +19,7 @@ mobs.target(NEAREST_PLAYER)
 )
 blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
 let score = 0
+score = 0
 let timeRemaining = 600
 let worldLocations = [
 world(167, 40, 151),
@@ -109,6 +110,7 @@ mobs.target(NEAREST_PLAYER)
 )
 blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
 let score = 0
+score = 0
 let timeRemaining = 600
 let worldLocations = [
 world(167, 40, 151),
