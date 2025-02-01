@@ -10,6 +10,9 @@
 
 Follow along with the Tutorial Video to repair the Aim Trainer game!
 
+The Tutorial Video can be watched here:
+https://cleverlike.wistia.com/medias/f79k6xj7f2
+
 #### ~ tutorialhint
 
 ```blocks
