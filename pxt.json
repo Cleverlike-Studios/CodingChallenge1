@@ -8,7 +8,11 @@
     "files": [
         "1/tutorials/1-aimtrainer.md",
         "1/tutorials/2-aimtrainer.md",
-        "1/tutorials/0-close.md"
+        "1/tutorials/0-close.md",
+        "2/tutorials/1-aimtrainer.md",
+        "2/tutorials/2-prizecounter.md",
+        "2/tutorials/0-close.md",
+        "2/tutorials/custom.ts"
     ],
     "targetVersions": {
         "target": "1.6.8",
