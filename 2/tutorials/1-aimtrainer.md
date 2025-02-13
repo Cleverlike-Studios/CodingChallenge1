@@ -8,7 +8,7 @@
 
 ### Step 1
 
-From the ``||player:PLAYER||`` category, drag an ``||player:on chat command||`` into the workspace and change the command from **jump** to **play**
+In the ``||player:on chat command||`` change the command from **run** to **play**
 
 #### ~ tutorialhint
 
@@ -35,7 +35,7 @@ player.onChat("play", function () {
 
 ### Step 3
 
-Press the green “Play” button. Then press “T” to open your in-game chat and type “play” and send to play Aim Trainer. 
+Press the green **Play** button. Then press **T** to open your in-game chat and type **play** and send to play Aim Trainer. 
 
 #### ~ tutorialhint
 
@@ -45,11 +45,12 @@ player.onChat("play", function () {
     prizes.playAimTrainer()
 })
 
-
+```
 
 
 
 
 ```template
-player.say("")
+player.onChat("run", function () {
+})
 ```

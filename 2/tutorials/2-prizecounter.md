@@ -64,10 +64,10 @@ function buyPrize () {
             prizes.givePrize()
             change = agent.getItemCount(1) - prizeCost
         } else {
-            gameplay.title(mobs.target(NEAREST_PLAYER), "Sorry", "Not Enough Emeralds in Slot 1")
+            gameplay.title(mobs.target(NEAREST_PLAYER), "Sorry", " ")
         }
     } else {
-        gameplay.title(mobs.target(NEAREST_PLAYER), "Sorry", "Not Enough Emeralds in Slot 1")
+        gameplay.title(mobs.target(NEAREST_PLAYER), "Sorry", " ")
         agent.dropAll(FORWARD)
     }
     mobs.give(
