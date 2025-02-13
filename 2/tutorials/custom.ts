@@ -3,7 +3,7 @@ enum Choice {
     Jersey,
     Pants,
     Shoes,
-    Console
+    Controller
 }
 
 //% block="Aim Trainer" weight=100 color=#AA278D icon=""
@@ -24,19 +24,19 @@ export let newPrize = Choice.Headphones
             )
         } else if (newPrize == Choice.Jersey) {
             player.execute(
-                "give @s cleverlike:jersey"
+                "give @s cleverlike:controlleritem"
             )
         } else if (newPrize == Choice.Pants) {
             player.execute(
-                "give @s cleverlike:pants"
+                "give @s cleverlike:controlleritem"
             )
         } else if (newPrize == Choice.Shoes) {
             player.execute(
-                "give @s cleverlike:shoes"
+                "give @s cleverlike:controlleritem"
             )
-        } else if (newPrize == Choice.Console) {
+        } else if (newPrize == Choice.Controller) {
             player.execute(
-                "give @s cleverlike:console"
+                "give @s cleverlike:controlleritem"
             )
         }
     }
