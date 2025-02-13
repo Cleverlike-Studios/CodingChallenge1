@@ -51,5 +51,5 @@ player.onChat("play", function () {
 
 
 ```template
-
+player.say("")
 ```
