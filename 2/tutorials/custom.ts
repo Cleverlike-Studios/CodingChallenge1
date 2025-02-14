@@ -48,6 +48,7 @@ export let newPrize = Choice.Headphones
         let timeRemaining = 0
         let worldLocations: Position[] = []
         let score = 0
+        blocks.place(LAPIS_LAZULI_BLOCK, world(160, 28, 149))
         playGame()
         function playGame() {
             gameplay.setGameMode(
@@ -131,6 +132,7 @@ export let newPrize = Choice.Headphones
                         "playsound random.orb @a"
                     )
                 }
+                blocks.place(DIAMOND_BLOCK, world(160, 28, 149))
             }
             player.execute(
                 "clear @p bow"
