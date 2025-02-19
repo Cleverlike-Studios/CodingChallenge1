@@ -20,19 +20,19 @@ export let newPrize = Choice.Headphones
     export function givePrize() {
         if (newPrize == Choice.Headphones) {
             player.execute(
-                "give @s cleverlike:controlleritem"
+                "give @s cleverlike:headset"
             )
         } else if (newPrize == Choice.Jersey) {
             player.execute(
-                "give @s cleverlike:controlleritem"
+                "give @s cleverlike:jersey"
             )
         } else if (newPrize == Choice.Pants) {
             player.execute(
-                "give @s cleverlike:controlleritem"
+                "give @s cleverlike:pants"
             )
         } else if (newPrize == Choice.Shoes) {
             player.execute(
-                "give @s cleverlike:controlleritem"
+                "give @s cleverlike:boots"
             )
         } else if (newPrize == Choice.Controller) {
             player.execute(
